@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+}
+header,
+#showcase,
+footer{
+    background-color: #1f2937;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 0rem 5rem 0rem;
+}
+.container h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLinks a{
+    color: #e5e7eb;
+    text-decoration: none;
+    padding-left: 2rem;
+    font-size: 18px;
+}
+
+/* hero styles */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5rem 0;
+}
+.hero-main{
+    width: 50%;
+}
+.hero h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:900;
+    margin-bottom: 1rem;
+}
+.hero p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+}
+.hero img{
+    width: 40%;
+}
+.btn{
+    color: #e5e7eb;
+    padding: 10px 2rem;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.secondary{
+    border: 3px solid #e5e7eb;
+}
+/* quote */
+#quote{
+    background-color: #e5e7eb;
+}
+.quote{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+}
+.quote p{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+.quote small{
+    font-size: 18px;
+    padding-top: 1rem;
+    font-weight: 900;
+}
+
+/* conract */
+.signup{
+    border-radius: 10px;
+    background-color: #3882f6;
+    margin: 5rem auto;
+    padding: 3rem;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup h4{
+    font-size: 24px;
+}
+.signup p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 2rem;
+    color: #e5e7eb;
+    font-size: 18px;
+}
