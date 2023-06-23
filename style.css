@@ -77,6 +77,38 @@ footer{
 .secondary{
     border: 3px solid #e5e7eb;
 }
+
+/* random */
+
+.random h2{
+    text-align: center;
+    padding: 2rem;
+    font-size: 36px;
+}
+.information{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.card img{
+    width: 250px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.card p{
+    width: 200px;
+    text-align: center;
+    padding-bottom: 2rem;
+    ;
+}
+
 /* quote */
 #quote{
     background-color: #e5e7eb;
@@ -100,7 +132,7 @@ footer{
     font-weight: 900;
 }
 
-/* conract */
+/* contact */
 .signup{
     border-radius: 10px;
     background-color: #3882f6;
